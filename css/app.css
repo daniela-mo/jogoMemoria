@@ -111,7 +111,6 @@ ul {
   cursor: pointer;
 }
 
-/*ESTRELAS*/
 .stars,
 .moves,
 .timer {
@@ -140,7 +139,6 @@ ul {
   cursor: pointer;
 }
 
-/*PARABENS*/
 #parabens {
   visibility: hidden;
   opacity: 0;
@@ -166,7 +164,6 @@ ul {
   font-size: 1.25rem;
 }
 
-/*RESPONSIVO*/
 @media only screen and(max-width: 1024px) {
   .score-panel {
     font-size: 15px;

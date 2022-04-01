@@ -65,7 +65,7 @@ scoreEstrela.prototype.restart = function () {
 
 let estrelas = new scoreEstrela();
 
-// TIMER - BASE COM AJUDA DO VIDEO
+// TIMER
 const timer = document.querySelector(".timer"); //TIMER CONVERTENDO ENTRE MINUTOS E SEGUNDOS
 
 let second = {
@@ -114,7 +114,7 @@ function resetaTimer() {
 // RESETAR
 document.querySelector(".restart").addEventListener("click", comecaJogo);
 
-// SHUFFLE (ANOTADO PÁGINA 50)
+// SHUFFLE
 function shuffle(array) {
   var currentIndex = array.length,
     temporaryValue,
@@ -160,7 +160,7 @@ function matched() {
 }
 
 //CASO CARD ERRADO
-// COM BASE NO VIDEO DE EXPLICAÇÃO UNMATCHED
+
 function unmatched() {
   for (var i = 0; i < openedCards.length; i++) {
     openedCards[i].classList.add("unmatched");
